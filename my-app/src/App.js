@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          VIVA! Acid
         </a>
       </header>
     </div>
