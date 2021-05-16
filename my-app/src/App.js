@@ -2,25 +2,31 @@
 import './App.css';
 import dripLogo from './drip-logo.svg';
 import dripInfo from './drip-info.svg';
+import instaLogo from './instagram.svg';
+import info from './info.svg';
+
+
 // import stackLogo from './stack-logo.svg';
 
 
+import MailChimpForm from './MailChimpForm.js';
 
 import bgMobile from './lp-mobile.svg';
 // import bgMd from './lp-md.svg';
 import bgLg from './lp-lg.svg';
 
 
-console.log(bgLg)
+console.log(MailChimpForm)
 
 function App() {
   return (
-
-
-
     
     <div className="App" class="w-screen h-screen overflow-hidden items-center justify-center">
       
+      {/* <div class="fixed pt-8 ml-6 w-6 h-6 bg-yellow-300"> */}
+        <img src={info} class="fixed ml-12 mt-6 rounded-full h-16 w-16 p-2 bg-yellow-300"></img>
+        <img src={instaLogo} class="fixed ml-32 mt-6 rounded-full h-16 w-16 p-2 bg-yellow-300"></img>
+      {/* </div> */}
 
       <div class="w-full container mx-auto p-6 fixed">
     
@@ -52,11 +58,15 @@ function App() {
       {/* <div id="logo" class="max-w-7xl"> */}
 
       {/* </div> */}
-      {/* <div id="bg fixed z-20"> */}
+      <div id="bg fixed z-20">
 
-        <img src={dripLogo} class="z-20 max-h-full p-10 sm:p-20 fixed top-0 sm:top-0"></img>
+        <img src={dripLogo} class="z-20 max-h-full p-10 sm:p-20 fixed"></img>
 
-      {/* </div> */}
+      </div>
+
+      <div class="bg-black pt-2 w-96 absolute bottom-0 z-30 rounded-lg">
+          <MailChimpForm/>
+        </div>
 
       <div id="bg fixed z-10">
         <img src={bgLg} class="hidden sm:block w-screen h-screen bg-contain"></img>
@@ -65,8 +75,10 @@ function App() {
 
 
 
+</div>
 
-    </div>
+
+
 
     
   );
