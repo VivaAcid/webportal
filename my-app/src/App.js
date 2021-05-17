@@ -25,7 +25,7 @@ function App() {
       
       {/* <div class="fixed pt-8 ml-6 w-6 h-6 bg-yellow-300"> */}
         <img src={info} class="fixed ml-12 mt-6 rounded-full h-16 w-16 p-2 bg-yellow-300"></img>
-        <img src={instaLogo} class="fixed ml-32 mt-6 rounded-full h-16 w-16 p-2 bg-yellow-300"></img>
+        {/* <img src={instaLogo} class="fixed ml-32 mt-6 rounded-full h-16 w-16 p-2 bg-yellow-300"></img> */}
       {/* </div> */}
 
       <div class="w-full container mx-auto p-6 fixed">
@@ -65,7 +65,7 @@ function App() {
       </div>
 
       <div class="bg-black pt-2 w-96 absolute bottom-0 z-30 rounded-lg">
-          <MailChimpForm/>
+          {/* <MailChimpForm/> */}
         </div>
 
       <div id="bg fixed z-10">
