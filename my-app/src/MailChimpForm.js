@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 // import the component
 import Mailchimp from 'react-mailchimp-form'
 
+import MailchimpSubscribe from "react-mailchimp-subscribe"
+
+console.log(MailchimpSubscribe);
+
 class MailChimpForm extends Component {
   render() {
     return (

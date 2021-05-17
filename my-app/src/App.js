@@ -6,6 +6,8 @@ import instaLogo from './instagram.svg';
 import info from './info.svg';
 
 
+
+
 // import stackLogo from './stack-logo.svg';
 
 
@@ -16,6 +18,8 @@ import bgMobile from './lp-mobile.svg';
 import bgLg from './lp-lg.svg';
 
 
+
+
 console.log(MailChimpForm)
 
 function App() {
@@ -24,7 +28,8 @@ function App() {
     <div className="App" class="w-screen h-screen overflow-hidden items-center justify-center">
       
       {/* <div class="fixed pt-8 ml-6 w-6 h-6 bg-yellow-300"> */}
-        <img src={info} class="fixed ml-12 mt-6 rounded-full h-16 w-16 p-2 bg-yellow-300"></img>
+        {/* <img onClick={(e) => {e.preventDefault();window.open("https://www.linkedin.com/in/bryanballi/", "_blank")}} class="hover:opacity-0 max-h-5" src={linkedIn}/>  */}
+        <img src={instaLogo} class="fixed ml-12 mt-6 rounded-full h-16 w-16 p-2 bg-yellow-300 z-40" onClick={(e) => {e.preventDefault();window.open("https://www.instagram.com/vivaacid312/", "_blank")}}></img>
         {/* <img src={instaLogo} class="fixed ml-32 mt-6 rounded-full h-16 w-16 p-2 bg-yellow-300"></img> */}
       {/* </div> */}
 
